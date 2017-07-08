@@ -32,7 +32,7 @@ const os = require('os')
 const totalBytes = os.totalmem() * 0.8
 
 // a representative element of your cache
-const value = { foo: 'bar', hello: 'world'}
+const value = {foo: 'bar', hello: 'world'}
 
 // The library calculate the number total of items
 const size = lruRam(value, totalBytes)
@@ -42,18 +42,18 @@ Then, you can use the calculated number in your favorite LRU implementation, for
 
 ```js
 const lruRam = require('lru-ram')
-const lru = require('lru')
+const LRU = require('lru')
 const os = require('os')
 
 // total memory of your cache
 const totalBytes = os.totalmem() * 0.8
 
 // a representative element of your cache
-const value = { foo: 'bar', hello: 'world'}
+const value = {foo: 'bar', hello: 'world'}
 
 // The library calculate the number total of items
 const size = lruRam(value, totalBytes)
-const cache = new lru(size)
+const cache = new LRU(size)
 ```
 
 ## API
