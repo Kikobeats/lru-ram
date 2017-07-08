@@ -21,6 +21,7 @@
     "ram"
   ],
   "dependencies": {
+    "bytes": "~2.5.0",
     "lodash.round": "~4.0.4",
     "object-sizeof": "~1.2.0"
   },
