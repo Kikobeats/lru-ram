@@ -2,7 +2,7 @@
   "name": "lru-ram",
   "description": "Calculate the size of your LRU cache in bytes",
   "homepage": "https://github.com/Kikobeats/lru-ram",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "author": {
     "name": "Kiko Beats",
@@ -15,7 +15,11 @@
   "bugs": {
     "url": "https://github.com/Kikobeats/lru-ram/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "cache",
+    "lru",
+    "ram"
+  ],
   "dependencies": {
     "lodash.round": "~4.0.4",
     "object-sizeof": "~1.2.0"
