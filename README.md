@@ -56,9 +56,17 @@ const size = lruRam(value, totalBytes)
 const cache = new LRU(size)
 ```
 
+You can specify quantity of bytes in human bytes as well:
+
+```js
+const lruRam = require('lru-ram')
+const value = {foo: 'bar', hello: 'world'}
+const size = lruRam(value, '2GB')
+```
+
 ## API
 
-### LRURAM(value, totalBytes)
+### lruRam(value, totalBytes)
 
 #### value
 
