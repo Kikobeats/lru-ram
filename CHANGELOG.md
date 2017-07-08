@@ -1,3 +1,10 @@
+<a name="1.1.0"></a>
+# 1.1.0 (2017-07-08)
+
+* Add human byte support ([a60c6f6](https://github.com/kikobeats/lru-ram/commit/a60c6f6))
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2017-07-08)
 
