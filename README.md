@@ -28,13 +28,13 @@ $ npm install lru-ram --save
 const lruRam = require('lru-ram')
 const os = require('os')
 
-// total memory of your cache
+// total bytes for your cache
 const totalBytes = os.totalmem() * 0.8
 
-// a representative element of your cache
+// a representative element
 const value = {foo: 'bar', hello: 'world'}
 
-// The library calculate the number total of items
+// the library calculate the total of items
 const size = lruRam(value, totalBytes)
 ```
 
@@ -45,13 +45,13 @@ const lruRam = require('lru-ram')
 const LRU = require('lru')
 const os = require('os')
 
-// total memory of your cache
+// total bytes for your cache
 const totalBytes = os.totalmem() * 0.8
 
-// a representative element of your cache
+// a representative element
 const value = {foo: 'bar', hello: 'world'}
 
-// The library calculate the number total of items
+// the library calculate the total of items
 const size = lruRam(value, totalBytes)
 const cache = new LRU(size)
 ```
