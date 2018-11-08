@@ -32,7 +32,7 @@ const os = require('os')
 const totalBytes = os.totalmem() * 0.8
 
 // a representative element
-const value = {foo: 'bar', hello: 'world'}
+const value = { foo: 'bar', hello: 'world' }
 
 // the library calculate the total of items
 const size = lruRam(value, totalBytes)
@@ -49,7 +49,7 @@ const os = require('os')
 const totalBytes = os.totalmem() * 0.8
 
 // a representative element
-const value = {foo: 'bar', hello: 'world'}
+const value = { foo: 'bar', hello: 'world' }
 
 // the library calculate the total of items
 const size = lruRam(value, totalBytes)
@@ -60,7 +60,7 @@ You can specify quantity of bytes in human bytes as well:
 
 ```js
 const lruRam = require('lru-ram')
-const value = {foo: 'bar', hello: 'world'}
+const value = { foo: 'bar', hello: 'world' }
 const size = lruRam(value, '2GB')
 ```
 
