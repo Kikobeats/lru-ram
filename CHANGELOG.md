@@ -1,3 +1,9 @@
+## <small>1.1.3 (2020-01-20)</small>
+
+* build: update meta ([085398d](https://github.com/kikobeats/lru-ram/commit/085398d))
+
+
+
 ## <small>1.1.2 (2020-01-20)</small>
 
 * fix: linter ([7cd972e](https://github.com/kikobeats/lru-ram/commit/7cd972e))
