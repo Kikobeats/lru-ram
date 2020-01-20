@@ -1,3 +1,12 @@
+## <small>1.1.2 (2020-01-20)</small>
+
+* fix: linter ([7cd972e](https://github.com/kikobeats/lru-ram/commit/7cd972e))
+* fix(package): update object-sizeof to version 1.4.0 ([c4aeb16](https://github.com/kikobeats/lru-ram/commit/c4aeb16))
+* Bump bytes from 3.0.0 to 3.1.0 ([22e9d29](https://github.com/kikobeats/lru-ram/commit/22e9d29))
+* Bump object-sizeof from 1.4.0 to 1.5.2 ([6d083b8](https://github.com/kikobeats/lru-ram/commit/6d083b8))
+
+
+
 <a name="1.1.1"></a>
 ## 1.1.1 (2018-11-08)
 
