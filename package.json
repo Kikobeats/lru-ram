@@ -1,7 +1,7 @@
 {
   "name": "lru-ram",
   "description": "Calculate the size of your LRU cache in bytes",
-  "homepage": "https://github.com/Kikobeats/lru-ram",
+  "homepage": "https://nicedoc.io/Kikobeats/lru-ram",
   "version": "1.1.2",
   "main": "index.js",
   "author": {
