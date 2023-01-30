@@ -23,7 +23,7 @@
   "dependencies": {
     "bytes": "~3.1.0",
     "lodash.round": "~4.0.4",
-    "object-sizeof": "~2.0.0"
+    "object-sizeof": "~2.4.0"
   },
   "devDependencies": {
     "coveralls": "latest",
